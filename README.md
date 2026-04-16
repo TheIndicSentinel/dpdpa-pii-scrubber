@@ -46,6 +46,19 @@ print(scrubbed)
 | **Passport** | Indian Passport numbering |
 | **Voter ID** | EPIC numbers |
 
+## ⚡ Use Cases
+- **Logging Sanitization:** Scrub PII before sending logs to CloudWatch/Datadog.
+- **Dataset Preparation:** Clean raw customer data before fine-tuning local models.
+- **Live Middleware:** Redact sensitive info in real-time within Chatbot interfaces.
+
+## ⚖️ Social Proof & Compliance Alignment
+Building on the principles of the **Digital Personal Data Protection (DPDP) Act 2023**, this utility helps organizations fulfill:
+*   **Data Minimisation:** Collecting/storing only the data necessary for the purpose.
+*   **Security Safeguards:** Implementing technical measures to protect personal data.
+
+[![Used By](https://img.shields.io/badge/Used_By-KavachX_Governance-7C3AED?style=flat-square)](https://github.com/TheIndicSentinel/kavachxv2)
+[![Compliance](https://img.shields.io/badge/Compliance-DPDP_Ready-10B981?style=flat-square)](#)
+
 ## ⚖️ License
 Licensed under the [Apache 2.0 License](LICENSE).
 
